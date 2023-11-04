@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+box-shadow: 0 0 4px 1px rgb(179, 169, 169);
+height: 60vmin;
+width: 30vmax;
+display: flex;
+flex-direction: column;
+padding: 10px;
+
+}
+
+input{
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+span{
+    margin-left: 10px;
+    color: #f8e129;
+    text-align: center;
+}
+h1{
+    
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 80px;
+    font-weight: bolder;
+}
